@@ -1,0 +1,36 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bars" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00C4A0"/>
+      <stop offset="100%" stop-color="#7DFF8A"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C4A0"/>
+      <stop offset="100%" stop-color="#7DFF8A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="48" height="48" rx="12" fill="#0D1B2A"/>
+
+  <!-- Cart left handle arc -->
+  <path d="M10 16 Q10 9 17 9" stroke="white" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <!-- Cart right handle arc -->
+  <path d="M31 9 Q38 9 38 16" stroke="white" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <!-- Cart body -->
+  <path d="M10 16 L10 33 Q10 35.5 12.5 35.5 L35.5 35.5 Q38 35.5 38 33 L38 16 Z" stroke="white" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
+
+  <!-- Wheels -->
+  <circle cx="17" cy="40" r="2.5" fill="white"/>
+  <circle cx="31" cy="40" r="2.5" fill="white"/>
+
+  <!-- Bar chart (3 bars, ascending) -->
+  <rect x="13" y="26" width="4.5" height="8" rx="1.2" fill="url(#bars)"/>
+  <rect x="21" y="21" width="4.5" height="13" rx="1.2" fill="url(#bars)"/>
+  <rect x="29" y="17" width="4.5" height="17" rx="1.2" fill="url(#bars)"/>
+
+  <!-- Trending line -->
+  <path d="M13 30 L17.5 25 L22.5 28 L33 16" stroke="url(#arrow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Arrow head -->
+  <path d="M29.5 14 L33.5 16 L31.5 19.5" stroke="url(#arrow)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
